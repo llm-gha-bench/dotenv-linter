@@ -1,7 +1,6 @@
 name: Benchmark
 on:
-  pull_request:
-    types: [labeled]
+  workflow_dispatch:
 
 env:
   CARGO_TERM_COLOR: always
